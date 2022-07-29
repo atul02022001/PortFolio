@@ -15,7 +15,7 @@ const Header = () => {
         <div className='numDiv'>
           <span>A</span><span>T</span><span>U</span><span>L</span>
         </div>
-        <div className='followDiv'>Parjapati</div>
+        <div className='followDiv'>Prajapati</div>
 
 
         <h5 className="text-light-header underline">Java Developer</h5>
