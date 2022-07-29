@@ -1,0 +1,212 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ==================================== CTA ================================================*/
+
+.cta{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.text-light-header{
+    /* color: var(--color-light-white); */
+    color: #bee2fc;
+    font-size: 1.2rem;
+}
+
+.underline{
+    margin-top: 1rem;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+}
+
+.btn-header{
+    background: #4db5ff;
+    width: max-content;
+    font-size: 1em;
+    display: inline-block;
+    color: black;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: var(--transition);
+}
+
+.btn-header:hover{
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+/* ==================================== HEADER SOCIALS ================================================*/
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+
+/* ==================================== ME ================================================*/
+
+
+.me{
+    /* background: linear-gradient(var(--color-primary),transparent); */
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    /* margin-top: 1.1rem; */
+    border-radius: 0 0 0 0;
+    overflow: hidden;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+}
+
+.img-me{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 180px 180px 0 0;
+}
+
+/* ==================================== ME ================================================*/
+
+
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+/* ========================= MEDIA QUERIES (SMALL DEVICES) ================================ */
+
+
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+    .header__socials, .scroll__down{
+        display: none;
+    }
+}
+
+
+/* ====================================================================================================================== */
+
+
+.followDiv,
+.numDiv{
+top:0;
+left: 0;
+display: flex;
+justify-content:center ;
+align-items: center;
+color: #ffffff;
+
+--neonColor:100, 100, 255;
+text-shadow: 0 0 6px rgba(var(--neonColor) , 0.98),
+            0 0 30px rgba(var(--neonColor) , 0.42),
+            0 0 12px rgba(var(--neonColor) , 0.58),
+            0 0 22px rgba(var(--neonColor) , 0.84),
+            0 0 38px rgba(var(--neonColor) , 0.88),
+            0 0 60px rgba(var(--neonColor) , 1);
+}
+
+.followDiv{
+    font-size: var(--sizeVar);
+    margin-left: calc(var(--sizeVar) / 10);
+    margin-top: calc(var(--sizeVar) * 1.5);
+    letter-spacing: calc(var(--sizeVar) / 1.75);
+    font-family: "Yellowtail", cursive;
+    --neoncolor: 255, 100, 255;
+    font-size: 25px;
+    font-family: fangsong;
+    margin-top: -18px;
+}
+
+.numDiv{
+    font-size: calc(var(--sizeVar) * 3.8);
+    letter-spacing: normal;
+    font-family: fangsong;
+}
+
+.numDiv span{
+    animation: flicker 600ms linear infinite;
+    font-size: 35px
+}
+
+.numDiv span:nth-of-type(2){
+    animation-delay: -200ms;
+    animation-duration: 500ms;
+}
+
+.numDiv span:nth-of-type(3){
+    animation-delay: -50ms;
+    animation-duration: 700ms;
+}
+
+@keyframes flicker{
+    0% {
+        color: rgb(255, 255, 255);
+        text-shadow: none;
+    }
+
+    5%{
+        color: rgb(255, 255, 255);
+        text-shadow: none; 
+    }
+
+    10%{
+        color: #b2dcfa;
+        text-shadow: none; 
+    }
+
+    15%{
+        color: #b2dcfa;
+        text-shadow: inherit; 
+    }
+
+    80%{
+        color: #b2dcfa;
+        text-shadow: inherit; 
+    }
+
+    90%{
+        color: rgb(255, 255, 255);
+        text-shadow: none; 
+    }
+
+    100%{
+        color: rgb(255, 255, 255);
+        text-shadow: none; 
+    }
+}
