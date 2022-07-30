@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
+import {MdOutlineDoubleArrow} from 'react-icons/md'
 
 const Header = () => {
   return (
@@ -25,8 +26,10 @@ const Header = () => {
         <div className="me">
           <img className='img-me' src={ME} alt="me" />
         </div>
+        <div className='scroll__down'>
+        <a href="#contact" >Scroll Down<MdOutlineDoubleArrow style={{marginBottom:"-3px", marginLeft:"5px"}}/> </a>
 
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        </div>
       </div>
     </header>
   )

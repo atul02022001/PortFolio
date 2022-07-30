@@ -24,13 +24,13 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>10+ Months</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>10+ Worldwide</small>
+              <small>2 Worldwide</small>
             </article>
 
             <article className='about__card'>
@@ -41,9 +41,10 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis velit ad, 
-            nemo veniam soluta vel. Iure, officiis quidem ullam dolor voluptatum neque. 
-            Natus atque adipisci corrupti cum ab quisquam placeat.
+            Front End & Back End Developer with 10+ months of hands-on experience designing, developing, 
+            implementing applications and solutions using a range of technologies and programming
+            languages. Seeking to leverage broad development experience and hands-on technical expertise
+            in a challenging role as a Front End & Back End Developer.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
