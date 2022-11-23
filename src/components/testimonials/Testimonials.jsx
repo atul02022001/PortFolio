@@ -1,14 +1,8 @@
 import React from 'react'
 import './testimonials.css'
 import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
-
 import { Pagination , Autoplay} from 'swiper'
-
 import { Swiper, SwiperSlide } from 'swiper/react'
-
 import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
 
@@ -17,22 +11,22 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Sandesh Bogati',
-    review:'aaaaaaaaaaaaaaa aaaaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaa aaaaaaaaaaaa'
+    review:'Excellent, working with web designer express was great.  Thanks to their knowledge and determination our website looks great and functions really good.  I am recommend anyone that is looking for a custom website to give them a call and speak to Gus, he will guide you to the right direction.'
   },
   {
-    avatar: AVTR2,
+    avatar: AVTR1,
     name: 'Vaibhav Gothi',
-    review:'bbbbbbbbbbbbbb bbbbbbbbbbbbb bbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbb bbbbbbbbbb bbbbbbbbbbbb'
+    review:'Excellent, working with web designer express was great.  Thanks to their knowledge and determination our website looks great and functions really good.  I am recommend anyone that is looking for a custom website to give them a call and speak to Gus, he will guide you to the right direction.'
   },
   {
-    avatar: AVTR3,
+    avatar: AVTR1,
     name: 'Dipesh Oza',
-    review:'ccccccc ccccccccccccc ccccccccccc ccccccccccc ccccccccccc cccccccccc ccccccc cccccc ccc cccccccccc cccccccccc ccccccccc'
+    review:'Excellent, working with web designer express was great.  Thanks to their knowledge and determination our website looks great and functions really good.  I am recommend anyone that is looking for a custom website to give them a call and speak to Gus, he will guide you to the right direction.'
   },
   {
-    avatar: AVTR4,
+    avatar: AVTR1,
     name: 'Kamlesh Lodha',
-    review:'ddddddd ddddddddddddd dddddddddddd dddddddd dddddddddddd ddddddd ddddddddddd dddddddddd ddddddddddd dddddddddddd'
+    review:'Excellent, working with web designer express was great.  Thanks to their knowledge and determination our website looks great and functions really good.  I am recommend anyone that is looking for a custom website to give them a call and speak to Gus, he will guide you to the right direction.'
   }
 ]
 

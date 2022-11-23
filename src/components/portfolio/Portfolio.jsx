@@ -1,54 +1,50 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/pf1.jpg'
-import IMG2 from '../../assets/pf2.jpg'
-import IMG3 from '../../assets/pf3.jpg'
-import IMG4 from '../../assets/pf4.jpg'
-import IMG5 from '../../assets/pf5.jpg'
-import IMG6 from '../../assets/pf6.jpg'
+import IMG1 from '../../assets/portfolio.png'
+import IMG2 from '../../assets/pending.jpg'
 
 const data=[
 {
   id:1,
   image:IMG1,
-  title: 'First Portfolio',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/AP_2001'
+  title: 'Personal Portfolio',
+  github: 'https://github.com/atul02022001/PortFolio',
+  demo: 'https://atul-prajapati.vercel.app/'
 },
 {
   id:2,
-  image:IMG3,
-  title: 'Second Portfolio',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/AP_2001'
+  image:IMG2,
+  title: 'Coming Soon...',
+  // github: 'https://github.com',
+  // demo: 'https://dribbble.com/AP_2001'
 },
 {
   id:3,
-  image:IMG5,
-  title: 'Thirt Portfolio',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/AP_2001'
+  image:IMG2,
+  title: 'Coming Soon...',
+  // github: 'https://github.com',
+  // demo: 'https://dribbble.com/AP_2001'
 },
 {
   id:4,
-  image:IMG5,
-  title: 'Forth Portfolio',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/AP_2001'
+  image:IMG2,
+  title: 'Coming Soon...',
+  // github: 'https://github.com',
+  // demo: 'https://dribbble.com/AP_2001'
 },
 {
   id:5,
-  image:IMG3,
-  title: 'Fifth Portfolio',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/AP_2001'
+  image:IMG2,
+  title: 'Coming Soon...',
+  // github: 'https://github.com',
+  // demo: 'https://dribbble.com/AP_2001'
 },
 {
   id:6,
-  image:IMG1,
-  title: 'Sixth Portfolio',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/AP_2001'
+  image:IMG2,
+  title: 'Coming Soon...',
+  // github: 'https://github.com',
+  // demo: 'https://dribbble.com/AP_2001'
 },
 
 ]
@@ -79,9 +75,6 @@ const Portfolio = () => {
 
           })
         }
-
-
-
       </div>
     </section>
   )
